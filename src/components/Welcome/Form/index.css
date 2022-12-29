@@ -1,0 +1,33 @@
+.formcontainer {
+  background-color: white;
+  width: 600px;
+  padding: 25px;
+  box-shadow: 0px 2px 1px -1px rgb(50 18 122 / 67%),
+    0px 1px 1px 0px rgb(50 18 122 / 49%), 0px 1px 3px 0px rgb(50 18 122 / 52%) !important;
+  border-radius: 8px;
+  border-top: 3px solid #32127a;
+}
+@media screen and (max-width: 576px) {
+  .formcontainer {
+    width: 100%;
+    margin-top: 25px;
+    max-width: 700px;
+    min-width: 250px;
+  }
+}
+
+.input {
+  padding: 8px 20px;
+  margin-top: 10px;
+}
+.error {
+  margin: 0px;
+  font-size: 12px;
+  color: red;
+}
+.form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding: 10px;
+}
